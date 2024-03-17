@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import "./App.css";
 import { useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "./firebase/FireBase";
+import { auth } from "./firebase/Firebase.jsx";
 
 function App() {
   // const [{}, dispatch] = useStateValue();

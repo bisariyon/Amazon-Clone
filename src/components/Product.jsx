@@ -2,7 +2,7 @@ import React, { useLayoutEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addToBasket } from "../app/BasketSlice";
 import { nanoid } from "@reduxjs/toolkit";
-import { db } from "../firebase/FireBase";
+import { db} from "../firebase/Firebase"
 
 function Product({ title, image, stars, price, id }) {
   const renderStars = () => {
