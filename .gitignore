@@ -135,5 +135,5 @@ sketch
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node,react
 
 
-src/firebase/Firebase.jsx
-src/firebase/FireBase.jsx
+# src/firebase/Firebase.jsx
+# src/firebase/FireBase.jsx
